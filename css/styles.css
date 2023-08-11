@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "slab";
+  src: url("/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+body {
+  padding: 1rem;
+  font-family: "slab", sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.header {
+  height: 180px;
+  background-image: url("/img/gatos.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  text-align: start;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.imgPerfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  top: 30%;
+}
+
+.title {
+  height: 55px;
+  background-color: #c4c4c4;
+  text-align: center;
+}
+
+.seccion {
+  padding-block: 3rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  background-color: #c4c4c4;
+  letter-spacing: 5px;
+}
+
+h1 {
+  margin: auto;
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  padding-block: 4px;
+  padding-left: 16px;
+}
+
+i {
+  font-size: 20px;
+  color: black;
+  margin: 1rem;
+}
+
+ul,
+dl {
+  padding-top: 0.5rem;
+}
+
+.cursiva li span {
+  font-style: italic;
+}
+
+li span {
+  font-weight: 600;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+
+dt {
+  grid-column: 1/1;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+dd {
+  line-height: 16.68px;
+  grid-column: 2/8;
+}
+
+.sobreMi {
+  text-align: center;
+}
+.footer {
+  height: 40px;
+  background-color: rgba(173, 216, 230, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
